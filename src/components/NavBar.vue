@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper blue-grey">
       <router-link class="brand-logo center" to="/">Home</router-link>
       <ul id="nav-mobile" class="right">
         <li>

@@ -1,7 +1,7 @@
 <template>
   <form v-on:submit="addTodo">
     <input v-model="title" type="text" placeholder="Add a Todo...">
-    <button class="btn" type="submit">Submit</button>
+    <button class="btn green" type="submit">Submit</button>
   </form>
 </template>
 

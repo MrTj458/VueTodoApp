@@ -20,17 +20,17 @@ export default {
       todos: [
         {
           id: 1,
-          title: "Learn Vue",
+          title: "Todo 1",
           completed: false
         },
         {
           id: 2,
-          title: "Learn MongoDB",
+          title: "Todo 2",
           completed: false
         },
         {
           id: 3,
-          title: "Learn JavaScript",
+          title: "Todo 3",
           completed: true
         }
       ]
@@ -39,7 +39,7 @@ export default {
   methods: {
     addTodo(title) {
       this.todos.push({
-        id: this.todos[this.todos.length - 1].id + 1,
+        id: this.todos.length === 0 ? 1 : this.todos[this.todos.length - 1].id,
         title: title,
         completed: false
       });

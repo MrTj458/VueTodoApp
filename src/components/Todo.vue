@@ -31,5 +31,6 @@ export default {
 
 div {
   cursor: pointer;
+  margin: 50px;
 }
 </style>
